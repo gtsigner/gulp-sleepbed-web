@@ -8,6 +8,8 @@
   min-width: 1170px;
 }
 
+@import "sass/_widget";
+@import "sass/_colums";
 @import 'sass/_header';
 @import 'sass/_footer';
 @import 'sass/_index';

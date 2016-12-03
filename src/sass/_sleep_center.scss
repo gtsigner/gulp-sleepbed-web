@@ -1,9 +1,7 @@
 .sleep-center-box {
-
   width: 100%;
   padding: 0px;
   margin-top: -20px;
-
   .sleep-banner img {
     height: 380px;
     width: 100%;
@@ -41,7 +39,42 @@
   }
   .craft-show-box {
     background: #F9F9F9;
+    margin-top: 20px;
+    .craft-step-box {
+      padding: 15px;
+      .like-btn {
+        border: 2px solid #2A8F3E;
+        border-radius: 15px;
+        line-height: 25px;
+        background: #2A8F3E;
+        color: #fff;
+      }
+      .like-add-char {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 25px;
+        color: #2A8F3E;
+      }
+    }
+    .craft-step-text-box {
+      .craft-text {
+        padding: 15px;
+        text-align: left;
+        color: #2A8F3E;
+      }
+    }
 
+    .craft-show-img-box {
+      margin-top: 0px;
+      .col-xs-4 {
+        padding: 15px;
+      }
+      img {
+        height: 270px;
+        border: 1px solid #ddd;
+        width: 100%;
+      }
+    }
 
   }
 }
