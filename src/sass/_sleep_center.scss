@@ -1,0 +1,28 @@
+.sleep-center-box {
+
+  width: 100%;
+  padding: 0px;
+  margin-top: -20px;
+
+  .sleep-banner img {
+    height: 600px;
+    width: 100%;
+  }
+  .img-show-box {
+    padding-top: 30px;
+    background: #F2F1F1;
+    .show-img {
+      width: 100%;
+      padding: 5px 10px;
+    }
+
+    .show-text-box {
+      padding: 10px;
+      p {
+        font-size: 15px;
+      }
+    }
+
+  }
+
+}
