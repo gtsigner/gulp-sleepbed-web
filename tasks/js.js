@@ -25,27 +25,26 @@ function build(file, watch, dest) {
     function rebundle() {
         var stream = bundler.bundle();
         return stream
-            .on('error', function(e) {
+            .on('error', function (e) {
                 console.log(e)
             })
             .pipe(source('app.js'))
             .pipe(gulp.dest(dest))
-            .on('end', function() {
+            .on('end', function () {
                 gutil.log('Done!');
             });
     }
 
-    bundler.on('update', function() {
+    bundler.on('update', function () {
         rebundle();
-        gutil.log('Rebundle...');
     });
 
     return rebundle();
 }
 
-gulp.task("build:js", function() {
-    return build('./src/app.js', false, './dist/html/assets/js/');
+gulp.task("build:js", function () {
+    return build('./src/app.js', false, './dist/assets/js/');
 });
-gulp.task("dev:js", function() {
+gulp.task("dev:js", function () {
     return build('./src/app.js', true, './tmp/assets/js/');
 });
