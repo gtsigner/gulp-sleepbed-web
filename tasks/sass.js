@@ -20,6 +20,7 @@ gulp.task("build:sass", () => {
 });
 gulp.task("dev:sass", () => {
     return gulp.src("./src/app.scss")
+        .pipe(plumber())
         .pipe(sass())
         .pipe(concat('app.css'))
         .pipe(stripCssComments())
