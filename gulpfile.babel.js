@@ -5,15 +5,12 @@ const tasks = requireDir("./tasks");
 import cp from 'cp';
 let debug = true;
 
-
-//static 拷贝静态文件
 gulp.task('static', () => {
     let SAVE_PATH = debug == false ? './dist/' : './tmp/';
     console.log(SAVE_PATH);
     return gulp.src('./src/assets/libs/**/*')
         .pipe(gulp.dest(SAVE_PATH + "assets/libs/"));
 });
-
 
 gulp.task('build', () => {
     debug = false;

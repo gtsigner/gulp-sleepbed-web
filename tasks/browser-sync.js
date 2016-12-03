@@ -10,8 +10,8 @@ const SERVE_CONFIG = {
     ui: {
         port: 3402
     }
-}
-const server = browserSync.create()
+};
+const server = browserSync.create();
 
 gulp.task('browser-sync', () => {
     server.init(SERVE_CONFIG);
@@ -20,5 +20,9 @@ gulp.task('browser-sync', () => {
 //刷新所有文件
 gulp.task("refresh", (cb) => {
     return gulp.src(["./src/**/*"])
+        .on("error", function (err) {
+            console.log(err);
+            this.emit('end');
+        })
         .pipe(server.stream())
-})
+});
