@@ -12,5 +12,5 @@ gulp.task('dev:images', function () {
 gulp.task('build:images', function () {
     return gulp.src('./src/assets/images/**/*')
     // .pipe(imagemin())
-        .pipe(gulp.dest('./dist/assets/images'));
+        .pipe(gulp.dest('dist/assets/images'));
 });
