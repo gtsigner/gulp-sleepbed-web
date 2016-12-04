@@ -1,0 +1,20 @@
+/*
+*@author zhaojunlike@
+*@mark 自定义栅格系统配合bootstrap
+*/
+.ey-col-8-1 {
+  width: 12.5%;
+}
+
+.ey-col-8-1, .ey-col-8-2 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  float: left;
+  display: block;
+}
+
+.ey-col-8-2 {
+  width: 25%;
+}
