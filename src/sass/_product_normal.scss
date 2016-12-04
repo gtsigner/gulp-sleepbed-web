@@ -1,6 +1,6 @@
 //设置全局包裹的样式
 .product_datails{
-    min-width: 970px;
+    min-width: 1020px;
      background: url("../images/img/back_img.jpg");
      margin-top: -20px;
 }
@@ -63,4 +63,7 @@ h1,h2,h3,h4,h5{
                         }
                     }     
                     }
+                    }
+                    .left{
+                        float:left;
                     }
