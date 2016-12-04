@@ -1,0 +1,19 @@
+.header {
+  background: url("../images/header_bg.png");
+  .header-logo-text {
+    height: 50px;
+    margin: 10px;
+  }
+  .navbar-ul-river li a {
+    color: #6c846d;
+    border-bottom: 3px solid transparent;
+    line-height: 30px;
+    transition: .2s all;
+    margin-bottom: -0px;
+    &:hover {
+      color: #6c846d;
+      background: transparent;
+      border-bottom: 3px solid #2aabd2;
+    }
+  }
+}

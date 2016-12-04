@@ -1,0 +1,17 @@
+/*定义基础样式*/
+* {
+  font-family: "Lantinghei SC", "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-size: 13px;
+}
+
+.footer, .header {
+  min-width: 1170px;
+}
+
+@import "sass/_widget";
+@import "sass/_colums";
+@import 'sass/_header';
+@import 'sass/_footer';
+@import 'sass/_index';
+@import 'sass/_about';
+@import "sass/sleep_center";
