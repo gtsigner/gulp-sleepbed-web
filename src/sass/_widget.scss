@@ -1,0 +1,26 @@
+/**组件**/
+
+.pro-title-widget {
+  padding: 30px;
+  margin: 0px;
+  background: url("../images/total_tab_view_bg.png");
+  background-size: 100px;
+  h3 {
+    line-height: 30px;
+    margin: 0px;
+  }
+  .tab-box {
+    .tab-list {
+      list-style: none;
+      .tab-item {
+        float: left;
+        line-height: 30px;
+        background: #fff;
+        min-width: 100px;
+        text-align: center;
+        padding: 5px 10px;
+        border: 1px solid #eee;
+      }
+    }
+  }
+}

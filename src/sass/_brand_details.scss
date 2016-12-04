@@ -1,0 +1,57 @@
+.brand_details{
+    width: 100%; padding: 0px;margin-top: -20px;min-width: 980px;
+    background-image:url(../images/background.png);background-attachment:fixed; background-size:100% auto;
+    .attr{text-align: center;font-style: "微软雅黑";color: rgb(74,66,55);}
+    .a_home{color: black;}
+    .attr_instructions{display: inline-block;}
+    .topdiv{
+        width:100%;padding:0px;margin:0px;
+        .top_img{
+            width: 100%;height: auto;
+        }
+    }
+    .twodiv {
+        .attr_data{
+            font-size: 12px;padding-bottom: 30px;
+        }
+    }
+    .content_div{
+        width:70%;height: 1000px;margin: 0 auto;
+        .cont_div{
+            background-color: white;width: 100%;height: auto;
+            .content_attr{padding-top: 30px;font-size: 16px;padding-left:20px;padding-right: 20px;
+        }
+    }
+    .img_div{
+        height:auto;width: 100%;padding-top:50px;padding-bottom: 60px;margin-top: -20px;
+        .cont_img{
+            width: 75%;height:auto;margin: 0 auto;display: block;
+        }
+    }
+    .bottom_div{
+        padding-top: 50px;
+        .change_div{
+            width:74.5%;height: auto;
+            .change{
+                width:74.5%;height: auto;margin-left: 5%;
+                .style_attr{font-size: 1.5em;
+            }
+        }
+    }
+        .return_div{
+            width:auto;height: auto;
+            .a_size{
+                width: 100%;height:100%; display: block;
+                .return_img{
+                    width: 95%;height:auto;margin: 0 auto;display: block;
+                    }
+                }
+            }
+         }
+   }    
+}
+
+ 
+
+ 
+  

@@ -9,8 +9,6 @@ import plumber from 'gulp-plumber';
 import concat from 'gulp-concat';
 import autoprefixer from 'autoprefixer';
 import stripCssComments from 'gulp-strip-css-comments';
-
-
 gulp.task("build:sass", () => {
     return gulp.src("./src/app.scss")
         .pipe(sass())
