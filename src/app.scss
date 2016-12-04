@@ -7,9 +7,14 @@
 .footer, .header {
   min-width: 1170px;
 }
-
+body{
+  min-width: 970px;
+}
 @import 'sass/_header';
 @import 'sass/_footer';
 @import "sass/_sleep_center";
 @import "sass/_product_normal";
-@import "sass/_product";
+@import "sass/_product_display";
+@import "sass/_product_display_two";
+@import "sass/_product_new_box";
+@import "sass/_product_diy_box";

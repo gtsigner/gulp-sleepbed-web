@@ -1,3 +1,31 @@
+//设置全局包裹的样式
+.product_datails{
+    min-width: 970px;
+     background: url("../images/img/back_img.jpg");
+     margin-top: -20px;
+}
+//消除list
+ul,ol{list-style:none;}
+//消除padding和margin
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, 
+.col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+.col-xs-4, .col-sm-4,  .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5,
+.col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, 
+.col-xs-7, .col-sm-7,  .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8,
+.col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9,
+.col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11,
+.col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{
+	padding: 0px;
+	margin: 0px;
+}
+.row{
+    margin:0px;
+    margin:0px;
+}
+h1,h2,h3,h4,h5{
+    margin:0px;
+    padding: 6px;
+}
 // 创建使得div消失的类
 .disappaer{
     display: none;
@@ -18,10 +46,21 @@
     }
     .navigation_one{
         height: 220px;
-        a{
-           img{
-            height: 218px;width: 99.5%;
-           }
-        }
-    }
-}
+        .grid_shade_father{
+            position: relative;
+            &:hover .grid_shade{
+                display: block;
+            }
+                a{
+                    .grid_shade{
+                         height: 100%;width: 100%;position: absolute;color: white;
+                          background-color: rgba(255,255,255,0.4);font-size: 2em;font-weight: 600;
+                          display: none;line-height: 220px;text-align: center;
+                      }
+                        }
+                        img{
+                            height: 218px;width: 99.5%;
+                        }
+                    }     
+                    }
+                    }

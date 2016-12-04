@@ -1,0 +1,35 @@
+  // diy部分的div
+    .diy_space{ height: 210px;
+         width:80%;margin:60px auto 0px;text-align:center;
+        .diy_space_img{
+               span{
+                     margin:0px;
+                     padding:0px;
+                     display:inline-block;
+                img{
+                    height: 100%;width: 100%;
+                }
+                 &:nth-of-type(odd){
+                       height: 210px;
+                       width: 19%;
+                  }
+                 &:nth-of-type(even){
+                          height: 210px;
+                          width:7%;
+                          }
+               }
+               
+            }                
+        }
+    .diy_space_tell{
+        width: 65%;
+        margin: 30px auto 0px;
+        h3{
+            margin-bottom: 6px;
+            text-align: center;
+        }
+        p{
+            line-height: 20px;
+            margin:0px; 
+        }
+    }
