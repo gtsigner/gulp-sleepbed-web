@@ -1,0 +1,53 @@
+.join_conditions{ 
+    width: 100%; padding: 0px;margin-top: -20px;min-width: 980px;
+    /* 背景设置 */
+    background-image:url(../images/background.png);background-attachment:fixed; background-size:100% auto;
+
+    .topdiv{
+        width:100%;padding:0px;margin:0px;
+        /* 头部图片的设置 */ 
+        .top_img{
+            width: 100%;height: auto;
+        }
+    }
+    /* 内容大标题设置 */
+    .name_div{
+        width: 100%;width: auto;
+        .attr_name{
+            text-align: center;font-style: "微软雅黑";color: rgb(74,66,55);
+            }
+        }
+    /* 转换框设置 */
+    .change_div{
+        width:100%;height:auto;text-align:center;margin-top: 1%;
+        .process{
+            padding:5px 15px;text-align: center;border: rgba(199,209,210,0.8) solid 0.5px;display: inline-block;margin: -2px;margin-bottom: 1%;
+            }
+        .change_color{
+            background-color: rgb(0,145,62);
+            }
+        }
+        /* 底部流程图设置 */
+    .introduce_div{
+            text-align: center;background-color:rgb(245,245,245);width: 100%;height: auto;
+            .introduce {
+                width: 90%;height: 265px;margin: 0 auto;padding-top: 50px;margin-left: 10%;
+                .span_attr{
+                    display: inline-block;
+                    }
+                .introduce_attr{
+                    width:18%;padding: 2%;background-color: white;border: rgb(205,205,205) solid 1px ;font-size: 16px;
+                    }
+
+                }
+            .number{
+                font-style: "微软雅黑";color: rgb(74,66,55);width: 100%;height: auto;
+                }
+      }
+}
+
+
+
+
+
+
