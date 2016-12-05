@@ -1,28 +1,80 @@
 .sleep-center-box {
-
   width: 100%;
   padding: 0px;
   margin-top: -20px;
-
   .sleep-banner img {
-    height: 600px;
+    height: 380px;
     width: 100%;
   }
   .img-show-box {
-    padding-top: 30px;
+    padding: 30px 20px;
     background: #F2F1F1;
+    border-bottom: 1px solid #c4c4c4;
     .show-img {
       width: 100%;
       padding: 5px 10px;
     }
-
     .show-text-box {
       padding: 10px;
       p {
-        font-size: 15px;
+        padding: 20px;
+        font-size: 14px;
+        line-height: 30px;
+      }
+      .feature {
+        padding: 20px 30px 20px 20px;
+        ul {
+          list-style: circle;
+          li {
+            span {
+              font-size: 16px;
+              color: #28883B;
+              line-height: 40px;
+            }
+          }
+        }
       }
     }
 
   }
+  .craft-show-box {
+    background: #F9F9F9;
+    margin-top: 20px;
+    .craft-step-box {
+      padding: 15px;
+      .like-btn {
+        border: 2px solid #2A8F3E;
+        border-radius: 15px;
+        line-height: 25px;
+        background: #2A8F3E;
+        color: #fff;
+      }
+      .like-add-char {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 25px;
+        color: #2A8F3E;
+      }
+    }
+    .craft-step-text-box {
+      .craft-text {
+        padding: 15px;
+        text-align: left;
+        color: #2A8F3E;
+      }
+    }
 
+    .craft-show-img-box {
+      margin-top: 0px;
+      .col-xs-4 {
+        padding: 15px;
+      }
+      img {
+        height: 270px;
+        border: 1px solid #ddd;
+        width: 100%;
+      }
+    }
+
+  }
 }
