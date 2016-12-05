@@ -1,7 +1,6 @@
 .brand_details{
-   .row{margin-left:20px;margin-right: 20px;}
     width: 100%; padding: 0px;margin-top: -20px;min-width: 980px;
-    background-image:url(../images/background.png);background-attachment:fixed;background-repeat : repeat; background-size:100% auto;
+    background-image:url(../images/background.png);background-attachment:fixed; background-size:100% auto;
     .attr{text-align: center;font-style: "微软雅黑";color: rgb(74,66,55);}
     .a_home{color: black;}
     .attr_instructions{display: inline-block;}
@@ -39,24 +38,18 @@
             }
         }
     }
-    .return_div{
-            
-            width:18%;height: auto;
-            background-color:#98D261;
-            border-radius: 15px;
-                .a_size{
-                    text-decoration:none;
-                    padding: 5px;
-                    width: 100%;height:100%;
-                     display: block;
-                    font-size: 30px;
+        .return_div{
+            width:auto;height: auto;
+            .a_size{
+                width: 100%;height:100%; display: block;
+                .return_img{
+                    width: 95%;height:auto;margin: 0 auto;display: block;
                     }
-                
                 }
             }
          }
-}    
-
+   }    
+}
 
  
 

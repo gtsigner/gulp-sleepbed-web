@@ -1,8 +1,7 @@
 .join_conditions{ 
-    .row{margin-left: 20px;margin-right: 20px;}
-    width: 100%; padding: 0px;margin-top: -20px;min-width: 1200px;
+    width: 100%; padding: 0px;margin-top: -20px;min-width: 980px;
     /* 背景设置 */
-    background-image:url(../images/background.png);background-attachment:fixed;background-repeat : repeat; background-size:100% auto;
+    background-image:url(../images/background.png);background-attachment:fixed; background-size:100% auto;
 
     .topdiv{
         width:100%;padding:0px;margin:0px;
@@ -22,45 +21,29 @@
     .change_div{
         width:100%;height:auto;text-align:center;margin-top: 1%;
         .process{
-            font-size:16px;padding:5px 15px;text-align: center;border: #c7cfd1 solid 1px;display: inline-block;margin: -2px;margin-bottom: 1%;
+            padding:5px 15px;text-align: center;border: rgba(199,209,210,0.8) solid 0.5px;display: inline-block;margin: -2px;margin-bottom: 1%;
             }
-        .change_1{
-           background-color: rgb(0,145,62);color: white;
-       }
-    }
+        .change_color{
+            background-color: rgb(0,145,62);
+            }
+        }
         /* 底部流程图设置 */
     .introduce_div{
             text-align: center;background-color:rgb(245,245,245);width: 100%;height: auto;
             .introduce {
-                    width: 80%;height: 100%;margin: 0 auto;padding-top: 50px;margin-left: 10%;
-                    .span_attr{
-                        display: inline-block;
-                        }
-                    .introduce_attr{
-                        height: 213px;width: 18%; padding: 2%;background-color: white;border: rgb(205,205,205) solid 1px ;font-size: 16px;
-                        }
-                }
-            .number{
-                font-style: "微软雅黑";color: rgb(74,66,55);width: 100%;height: auto;margin-bottom: -1px;
-                }
-      }
-      .introduce_div_second{
-           display:none;
-           text-align: center;background-color:rgb(245,245,245);width: 100%;height: auto;
-            .introduce {
-                width: 80%;height: 100%;margin: 0 auto;padding-top: 50px;margin-left: 10%;
+                width: 90%;height: 265px;margin: 0 auto;padding-top: 50px;margin-left: 10%;
                 .span_attr{
                     display: inline-block;
                     }
                 .introduce_attr{
-                    height: 213px;width: 300px; padding: 2%;background-color: white;border: rgb(205,205,205) solid 1px ;font-size: 16px;
+                    width:18%;padding: 2%;background-color: white;border: rgb(205,205,205) solid 1px ;font-size: 16px;
                     }
 
                 }
             .number{
-                font-style: "微软雅黑";color: rgb(74,66,55);width: 100%;height: auto;margin-bottom: -1px;
+                font-style: "微软雅黑";color: rgb(74,66,55);width: 100%;height: auto;
                 }
-         }
+      }
 }
 
 
