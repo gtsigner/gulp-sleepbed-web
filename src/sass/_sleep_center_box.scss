@@ -1,0 +1,32 @@
+.sleep-center-box1{
+  width: 100%;
+  padding: 0px;
+  margin-top: -20px;
+  .sleep-banner img {
+    height: 380px;
+    width: 100%;
+  }
+  .normal_box{
+      text-align: center;
+      h2{
+        padding: 5px;
+      }
+      h4{
+          padding: 3px;
+      }
+      .introduce_sleep{
+          .introduce_sleep_span{
+              border: 1px solid #cacecd;
+              color:#575049;
+              width: 50px;
+              padding: 3px 10px;
+              display: inline-block;
+          }
+          .active_sleep_span{
+              color:#fafdea;
+              background: #109445;
+              border:1px solid #109445;
+          }
+      }
+  }
+}
