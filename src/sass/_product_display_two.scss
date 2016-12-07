@@ -1,0 +1,30 @@
+      // 这是产品系列代码专区
+    .sapce_of_sp{
+        .series_productspace{
+            text-align: center;
+            .title_of_bedproduct{
+                background-color: rgb(220,220,200);
+                h4{
+                    color: darkred;
+                    padding:5px;
+                }
+                h2{
+                    padding-top:10px;
+                    margin:0px;
+                }
+            }
+            .col-xs-3{
+                img{
+                    height: 500px;width: 100%;
+                }
+            }
+            .col-xs-6{
+                img{
+                    height: 150px;width: 100%;
+                }
+            }
+        }
+    }
+    .have_padding{
+        padding:6px;
+    }

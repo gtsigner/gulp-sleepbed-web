@@ -7,17 +7,25 @@
 .footer, .header {
   min-width: 1170px;
 }
-
-@import "sass/_widget";
+body{
+  min-width: 970px;
+}
 @import "sass/_colums";
 @import 'sass/_header';
 @import 'sass/_footer';
 @import 'sass/_index';
-@import 'sass/_about';
-@import "sass/sleep_center";
+@import "sass/_sleep_center";
+@import "sass/_widget";
+@import "sass/_product_normal";
+@import "sass/_product_display";
+@import "sass/_product_display_two";
+@import "sass/_product_new_box";
+@import "sass/_product_diy_box";
+@import "sass/_sleep_center";
 @import "sass/brand_details";
 @import "sass/join_conditions";
 @import "sass/electronc_shopping";
 @import"sass/customer_servicer";
 @import"sass/sleep_center_Fabric";
 @import"sass/company_honor";
+@import "sass/_sleep_center_box";

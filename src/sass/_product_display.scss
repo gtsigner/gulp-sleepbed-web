@@ -1,0 +1,41 @@
+// 商品详情部分的css
+.five_kindof_bedspace{
+    text-align: center;font-family: "微软雅黑";
+    .five_shopdatails{
+        margin: 0px auto;width:80%;background:rgba(235,249,222,1);text-align: left;
+        ul{
+            margin-left: 10%;
+            li{
+                padding: 10px;
+                img{
+                    margin-right: 10px;width: auto;height: 20px;
+                }
+            }
+        }
+    }
+    .five_displayshop_title{
+        background: rgb(230,230,230);padding-top: 10px;border-top: 1px solid rgba(195,195,195,0.6)
+        h4{
+            color: rgb(119,83,51);
+        }
+    }
+    .five_displayshop_body{
+        margin: 0px auto;width: 80%;margin-top: 30px;
+        img{
+            height: 320px;width: 96%;
+        }
+        p{
+            margin-top: 5px;
+        }
+    }
+    .five_changedisplay{
+        width: 60%;margin: 0px auto;height: 60px;
+        ul{
+            margin-left: 8%;
+            float: left;
+            }
+    }
+    }
+   
+
+  
