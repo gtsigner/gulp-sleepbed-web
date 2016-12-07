@@ -1,0 +1,121 @@
+.customer_service-box {
+  width: 100%;
+  padding: 0px;
+  margin-top: -20px;
+  .customer_service-banner img {
+    height: 380px;
+    width: 100%;
+  } 
+  .pro-title-widget{
+    height: 145px;
+    background-color: #F9F9F9;
+    margin: -20px auto 44px;
+    padding-top: 32px;
+    .service_problem{
+      margin: 10px auto;
+      .move{
+        width: 200px;
+        height: 32px;
+        margin: 0 auto;
+      .btn_service{
+      width: 99px;
+      height: 30px;
+      font-size: 14px;
+      line-height: 30px;
+      border: 1px solid #C9D3D0;
+      }
+      .btn_service:hover{
+         background-color: #01913E;
+         color:#CADBC8; 
+      }
+      .btn_problem{
+      width: 99px;
+      height: 30px;
+      font-size: 14px;
+      line-height: 30px;
+      border: 1px solid #C9D3D0;
+      }
+      .btn_problem:hover{
+         background-color: #01913E;
+         color:#CADBC8; 
+      }
+    }  
+   }
+  }
+  .show_box{
+    padding: 10px;
+    .show1{
+      height: 200px;
+      margin-right: 12px;
+      padding:0 20px;
+      margin-top: -50px;
+      padding-left: 200px;
+      .show_text1{
+        height: 80px;
+        padding:50px 0 50px 50px;
+        p{
+        height: 100%; 
+        font-size: 14px;
+        line-height: 30px;
+        background-color: #F2F1F1;
+        }
+      }
+      .show_img1{
+        padding-top:20px; 
+        margin-top: 25px;
+        img{
+          height: 100px;
+        }
+      }
+    }
+    .show2{
+      height: 200px;
+       margin-right: 12px;
+      padding:0 20px;
+      margin-top: -50px;
+      padding-left: 233px;
+      .show_img2{
+        padding-top:20px; 
+        margin-top: 25px;
+        margin-right: -315px;
+        img{
+          height: 100px;
+        }
+      }
+      .show_text2{
+        height: 80px;
+        padding:50px 50px 50px 0;
+        p{
+        height: 100%; 
+        font-size: 14px;
+        line-height: 30px;
+        background-color: #F2F1F1;
+        }
+      }
+    }
+     .show3{
+      height: 200px;
+      margin-right: 12px;
+      padding:0 20px;
+      margin-top: -50px;
+      padding-left: 200px;
+      .show_text3{
+        height: 80px;
+        padding:50px 0 50px 50px;
+        p{
+        height: 100%; 
+        font-size: 14px;
+        line-height: 30px;
+        background-color: #F2F1F1;
+        }
+      }
+      .show_img3{
+        padding-top:20px; 
+        margin-top: 25px;
+        img{
+          height: 100px;
+        }
+      }
+    }
+  }
+ }

@@ -1,0 +1,32 @@
+.company-honor-box {
+  width: 100%;
+  padding: 0px;
+  margin-top: -20px;
+  background-color: #E2F1EA;
+  .honor-banner img {
+    height: 380px;
+    width: 100%;
+  }
+  .tab-box{
+    width: 340px;
+    margin: 0 auto;
+  }
+  .show{
+    margin-top: 30px;
+    padding-top: 10px;
+    margin-right: 15px;
+    .left-data{
+      padding-left: 70px;
+    }
+    .show-main{
+      padding-right: 315px;
+      padding-top: 50px;
+      .show-text{
+       padding-top: 100px;
+       p{
+         line-height: 30px;
+       }
+      }
+    }
+  }
+}
