@@ -38,8 +38,10 @@
     }
     text-align: center;
     .row{
+         .change_background_color{
+             background-color: #f8f8f8;
+            }
         .col-xs-6{
-            background-color: #f8f8f8;
             height: 350px;
             img{
                 height: 100%;
@@ -47,7 +49,7 @@
             }
             .sleep_img_title{
                 height: 35%;
-                padding: 30px 10px 0px;
+                padding: 18px 10px 0px;
                 img{
                     width: auto;
                     height: 100%;

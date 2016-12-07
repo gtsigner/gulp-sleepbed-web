@@ -26,5 +26,21 @@
         }
     }
     .have_padding{
-        padding:6px;
+        padding:14px 6px 0px;
+        position: relative;
+        &:hover .have_conver_img{
+            display:block;
+        }
+          .have_conver_img{
+                        position: absolute;
+                        right: 6px;
+                        top:14px;
+                        height: 92%;
+                        width: 50%;
+                        line-height: 4em;
+                        text-align: center;
+                        display: none;
+                        color:white;
+                        background: rgba(10,10,10,0.4);
+                    }
     }
